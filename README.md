@@ -6,6 +6,7 @@ repetir el camino ya recorrido.
 ## COMO EJECUTAR EL JUEGO
 1. Tener python 3.12.3 instalado
 2. Instalar Pygame:
+> ejecutar en la terminal
 ```
 pip instal pygame
 ```
