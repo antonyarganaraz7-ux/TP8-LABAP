@@ -66,7 +66,7 @@ en vez de crear un objeto `Sound` para la victoria.
 ---
 
 ## Formulario de transparencia
-Utilice claude, 
+Utilice claude, le pedi ayuda en 
 
 
 
