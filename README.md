@@ -67,7 +67,18 @@ en vez de crear un objeto `Sound` para la victoria.
 
 ## Formulario de transparencia
 Utilice claude, le pedi ayuda para incluir un color rojo cuando se quiera mover a copernibot hacia una direccion la cual ya se halla cruzado antes, para la animacion de **NIVEL COMPLETADO** que uso `math.sin`, y el problema donde mas me ayudo (en los anteriores mayormente fue unicamente de guia claude) fue en un error con el sonido de victoria que dejaba de funcionar luego de un par de veces de llegar al merendero, Puedes revisar la [explicación error del sonido de victoria](#NOTA-IMPORTANTE-ACERCA-DEL-SONIDO-DE-VICTORIA) para más detalles.
-aparte de ayudarme grandemente a interpretar la `sintaxis basica de redaccion y formato` en la cual habian cosas que no entendia bien del todo como por ejemplo a la hora de poner la imagen de re zero tuve algunas complicaciones o con el vinculo de antes para no tener que extenderme nuevamente en la explicacion.
+aparte de ayudarme grandemente a interpretar la `sintaxis basica de redaccion y formato` en la cual habian cosas que no entendia bien del todo como por ejemplo a la hora de poner la imagen de re zero tuve algunas complicaciones o con el vinculo de antes para no tener que extenderme nuevamente en la explicacion.  
+>`Prompt que use`:  
+>(este prompt no sera del todo exacto ya que muchas de mis interacciones fueron de guia y aprendizaje sobre cosas que  no sabia)  
+>"oye claude, estoy haciendo un proyecto y necesito que me ayudes en algo. Quiero hacer que el cartel de nivel completado que sale al llegar a la meta se agrande y achique por asi decirlo algo asi como un latido. Otra cosa mas, tambien pense en que al querer ir hacia un camino el cual ya fue recorrido se cubra de color rojo el cuadrado en el cual se encuentre copernibot. tambien necesito que me guies un poco porque me cuesta llegar a entender algunas cosas, estoy ayudandome con videos pero quiero tambien explicaciones un poco mas extensas y que pueda llegar a entender (**esto ultimo fue una breve englobacion de las otras preguntas guia que le hice a claude**)"
+
+ ### el aprendizaje que saque estas interacciones fue lo siguiente
+ 1. `math.sin()` es una funcion trigonometrica la cual nos provee una propiedad muy util, el seno siemore da un numero que va subiendo y bajando constantemente entre -1 y 1 de forma repetitiva. esto nos viene perfecto para hacer la animacion de que se achique y agrande
+ 2. Cuando se quiere mover a Copernibot a una casilla por la que ya paso, la función `mover_copernibot` bloquea el avance y guarda el milisegundo exacto del intento en `estado["aviso_bloqueo"]` usando `pygame.time.get_ticks()`. Luego, durante la fase de dibujo, el programa compara el tiempo actual con ese registro. Si han transcurrido menos de 250 milisegundos `(TIEMPO_AVISO_MS)`, dibuja un borde rojo de 3 píxeles de grosor sobre la posición actual del personaje usando `pygame.draw.rect` con el color `COLOR_BLOQUEADO`. Una vez superado ese cuarto de segundo, la condición deja de cumplirse y el indicador rojo desaparece de la pantalla automáticamente.  
+ 3. Aprendi mayormente lo que me [explico aqui](#NOTA-IMPORTANTE-ACERCA-DEL-SONIDO-DE-VICTORIA) y me añadio una cosa extra cuando me ayudo, introdujo un patron para que si llegara a fallar algun sonido no se cierre el programa de golpe. Intenta cargar el recurso dentro de un `try` y si falla, devuelve `None` en vez de dejar que el error se propage y cierre el programa. Antes de usar el recurso en cualquier parte del codigo, chequea si es `None` antes de operar con el.  
+ 
+
+ 
 
 
 
