@@ -66,8 +66,7 @@ en vez de crear un objeto `Sound` para la victoria.
 ---
 
 ## Formulario de transparencia
-Utilice claude, le pedi ayuda en 
-
+Utilice claude, le pedi ayuda para incluir un color rojo cuando se quiera mover a copernibot hacia una direccion la cual ya se halla cruzado antes, para la animacion de **NIVEL COMPLETADO** que uso `math.sin`, y el problema donde mas me ayudo (en los anteriores mayormente fue unicamente de guia claude) fue en un error con el sonido de victoria que dejaba de funcionar luego de un par de veces de llegar al merendero, Puedes revisar la [explicación error del sonido de victoria](#NOTA-IMPORTANTE-ACERCA-DEL-SONIDO-DE-VICTORIA) para más detalles.
 
 
 
