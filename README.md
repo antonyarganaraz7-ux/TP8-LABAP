@@ -32,7 +32,7 @@ pip instal pygame
 para darle un toque de mi personalidad utilice los sonidos de: **ram_sneeze.mp3**
 y **subaru_victory.mp3** provenientes del anime RE:ZERO
 
-![imagen de re zero](https://private-user-images.githubusercontent.com/271253993/646767205-1a77ff33-b14f-4794-b2ed-98dc7349a2e7.webp?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODg2MjE0MTIsIm5iZiI6MTc4ODYyMTExMiwicGF0aCI6Ii8yNzEyNTM5OTMvNjQ2NzY3MjA1LTFhNzdmZjMzLWIxNGYtNDc5NC1iMmVkLTk4ZGM3MzQ5YTJlNy53ZWJwP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDkwNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA5MDVUMTUxMTUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NTZlYmQ3MDdiMmNiYjY3NmQ0NmU4MTc0ZDBkNGI4ZjU1NDExNmQxMmJkZmU2NDNjMjMxOTBjYWE0Zjc0ZmRmOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGd2VicCJ9.RMrJcXs6WIY5b2lVvGjTmVlA0cFPFCPuTw-qsKNBUVY)
+![imagen de re zero](<img width="640" height="960" alt="Image" src="https://github.com/user-attachments/assets/1a77ff33-b14f-4794-b2ed-98dc7349a2e7" />)
 
 ## NOTA IMPORTANTE ACERCA DEL SONIDO DE VICTORIA
 ### Aqui tuve un par de problemas con el sonido de victoria, al ganar un par de veces dejaba de funcionar y esto me rompio la cabeza durante un buen rato y al no entender que pasaba decidi pedirle ayuda a claude, aqui la explicacion:  
