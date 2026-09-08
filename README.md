@@ -32,7 +32,7 @@ pip instal pygame
 para darle un toque de mi personalidad utilice los sonidos de: **ram_sneeze.mp3**
 y **subaru_victory.mp3** provenientes del anime RE:ZERO
 
-![imagen de re zero](.imagen/re_zero.jpg)
+![imagen de re zero](imagen/re_zero.jpg)
 
 ## NOTA IMPORTANTE ACERCA DEL SONIDO DE VICTORIA
 ### Aqui tuve un par de problemas con el sonido de victoria, al ganar un par de veces dejaba de funcionar y esto me rompio la cabeza durante un buen rato y al no entender que pasaba decidi pedirle ayuda a claude, aqui la explicacion:  
